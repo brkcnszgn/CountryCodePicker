@@ -533,7 +533,7 @@ public class CountryUtils {
    * @param context caller context
    * @return List of Country
    */
-  static List<Country> getAllCountries(Context context) {
+  public static List<Country> getAllCountries(Context context) {
     if (countries != null) return countries;
 
     countries = new ArrayList<>();
